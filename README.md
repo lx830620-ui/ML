@@ -19,10 +19,10 @@ A text classification project that detects spam SMS messages using two machine l
 ## Project Structure
 
 ```
-├── 源码/
-│   ├── 支持向量机.py       # SVM classifier with TF-IDF features
-│   └── 朴素贝叶斯.py       # Naive Bayes classifier (hand-implemented from scratch)
-├── spam.csv                # Dataset
+├── svm_classifier.py           # SVM classifier with TF-IDF features
+├── naive_bayes_classifier.py   # Naive Bayes classifier (hand-implemented from scratch)
+├── spam.csv                    # Dataset
+├── .gitignore
 └── README.md
 ```
 
